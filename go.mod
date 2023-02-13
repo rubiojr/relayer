@@ -19,6 +19,7 @@ require (
 	github.com/stevelacy/daz v0.1.4
 	github.com/tidwall/gjson v1.14.1
 	golang.org/x/exp v0.0.0-20221106115401-f9659909a136
+	modernc.org/sqlite v1.20.4
 )
 
 require (
@@ -50,10 +51,13 @@ require (
 	github.com/decred/dcrd/crypto/blake256 v1.0.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
 	github.com/decred/dcrd/lru v1.0.0 // indirect
+	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/go-errors/errors v1.0.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
+	github.com/google/uuid v1.3.0 // indirect
 	github.com/json-iterator/go v1.1.11 // indirect
+	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/kkdai/bstream v1.0.0 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
 	github.com/kr/pretty v0.1.0 // indirect
@@ -66,17 +70,30 @@ require (
 	github.com/lightningnetwork/lnd/ticker v1.1.0 // indirect
 	github.com/lightningnetwork/lnd/tlv v1.0.3 // indirect
 	github.com/lightningnetwork/lnd/tor v1.0.1 // indirect
+	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/miekg/dns v1.1.43 // indirect
 	github.com/mmcdole/goxpp v0.0.0-20181012175147-0068e33feabf // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
+	github.com/remyoudompheng/bigfft v0.0.0-20200410134404-eec4a21b6bb0 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.0 // indirect
 	github.com/valyala/fastjson v1.6.3 // indirect
-	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
-	golang.org/x/net v0.0.0-20211015210444-4f30a5c0130f // indirect
+	golang.org/x/crypto v0.1.0 // indirect
+	golang.org/x/mod v0.6.0 // indirect
+	golang.org/x/net v0.1.0 // indirect
 	golang.org/x/sys v0.1.0 // indirect
-	golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/term v0.1.0 // indirect
+	golang.org/x/text v0.4.0 // indirect
+	golang.org/x/tools v0.2.0 // indirect
+	lukechampine.com/uint128 v1.2.0 // indirect
+	modernc.org/cc/v3 v3.40.0 // indirect
+	modernc.org/ccgo/v3 v3.16.13 // indirect
+	modernc.org/libc v1.22.2 // indirect
+	modernc.org/mathutil v1.5.0 // indirect
+	modernc.org/memory v1.4.0 // indirect
+	modernc.org/opt v0.1.3 // indirect
+	modernc.org/strutil v1.1.3 // indirect
+	modernc.org/token v1.0.1 // indirect
 )

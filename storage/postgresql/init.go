@@ -37,11 +37,11 @@ CREATE TABLE IF NOT EXISTS event (
   tagvalues text[] GENERATED ALWAYS AS (tags_to_tagvalues(tags)) STORED
 );
 
-CREATE UNIQUE INDEX IF NOT EXISTS ididx ON event USING btree (id text_pattern_ops);
-CREATE INDEX IF NOT EXISTS pubkeyprefix ON event USING btree (pubkey text_pattern_ops);
+CREATE UNIQUE INDEX IF NOT EXISTS ididx ON event (id text_pattern_ops);
+CREATE INDEX IF NOT EXISTS pubkeyprefix ON event (pubkey text_pattern_ops);
 CREATE INDEX IF NOT EXISTS timeidx ON event (created_at DESC);
 CREATE INDEX IF NOT EXISTS kindidx ON event (kind);
-CREATE INDEX IF NOT EXISTS arbitrarytagvalues ON event USING gin (tagvalues);
+CREATE INDEX IF NOT EXISTS arbitrarytagvalues ON event (tagvalues);
     `)
 	return err
 }
