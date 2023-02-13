@@ -27,8 +27,8 @@ func (b *SqliteBackend) Init() error {
 	);
 	CREATE UNIQUE INDEX IF NOT EXISTS ididx ON event (id);
 	CREATE INDEX IF NOT EXISTS pubkeyprefix ON event (pubkey);
-  CREATE INDEX IF NOT EXISTS timeidx ON event (created_at DESC);
-  CREATE INDEX IF NOT EXISTS kindidx ON event (kind);
+	CREATE INDEX IF NOT EXISTS timeidx ON event (created_at DESC);
+	CREATE INDEX IF NOT EXISTS kindidx ON event (kind);
 	    `)
 	return err
 }
